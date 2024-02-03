@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+  }
+  
+  .split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: bisque;
+    padding: 40px 50px;
+  }
+  
+  .Left,
+  .Right {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  #topH {
+    width: 100%;
+    color: #282828;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #topD {
+    width: 100%;
+    color: #282828;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 20px;
+    display: inline-block;
+  }
+  
+  .topthrd {
+    display: inline-block;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 850;
+    /* text-align: right; */
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    display: inline-block;
+    width: 50%;
+    border: 5px solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  #btn {
+    width: 30%;
+    background-color: #282828;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    border-color: #007bff;
+  }
+  
+  footer {
+    background-color: #282828;
+    color: white;
+    padding: 20px 0;
+    height: 30vh;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer .Lefter li,
+  .footer .Righter li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .Righter img {
+    width: 30px;
+    margin-right: 10px;
+  }
